@@ -1,0 +1,12 @@
+import pandas as pd
+A.)
+  data.iloc[:5,::2]
+B.)
+  data[data['Model']=='Mazda RX4']
+C.)
+  data[data['Model']=='Camaro Z28'].loc[:,['Model','cyl']]
+D.)
+  data[data['Model']=='Mazda RX4 Wag'].loc[:,['Model','cyl','gear']]
+  data[data['Model']=='Ford Pantera L'].loc[:,['Model','cyl','gear']]
+  data[data['Model']=='Honda Civic'].loc[:,['Model','cyl','gear']]
+  
