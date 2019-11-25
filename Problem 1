@@ -1,0 +1,4 @@
+import pandas as pd
+data=pd.read_csv('cars.csv')
+data.iloc[:5,:]
+data.iloc[-5,:]
